@@ -28,7 +28,10 @@ def index():
 def get_counter(key):
     validate = validate_key(key)
     if validate == 200:
-        return r.hget(counter_key, key)
+        value = r.hget(counter_key, key)
+        if value:
+            return value
+
     return jsonify({ 'error': validate }), validate
 
 @app.route('/c', methods=['POST'])
