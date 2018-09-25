@@ -1,0 +1,11 @@
+<!doctype html>
+    <body>
+        {% for key in counters %}
+        <div class='counter_entry'>
+            <p>
+            {{key}} | {{ counters[key] }}
+            </p>
+        </div>
+        {% endfor %}
+    </body>
+</html>

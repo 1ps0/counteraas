@@ -1,0 +1,8 @@
+curl -XPOST localhost:5000/c -d '{"key":"hi"}' -H "Content-Type: application/json"
+curl -XPOST localhost:5000/c -d '{"key":"hii"}' -H "Content-Type: application/json"
+curl -XPOST localhost:5000/c -d '{"key":"hii12"}' -H "Content-Type: application/json"
+curl -XPOST localhost:5000/c -d '{"key":"hii22"}' -H "Content-Type: application/json"
+curl -XPOST localhost:5000/c -d '{"key":"hey you"}' -H "Content-Type: application/json"
+curl -XPOST localhost:5000/c -d '{"key":"you suck"}' -H "Content-Type: application/json"
+curl -XPOST localhost:5000/c -d '{"key":""}' -H "Content-Type: application/json"
+curl -XPOST localhost:5000/c -d '{"key":"lllllloooll192347878961416278934(*&!@^$(*)&@R~!_)(#*~!})_WEIGVB>EL*W(^Q!)$P*&G!@>QEFVBE>NNOW*FY"}' -H "Content-Type: application/json"
