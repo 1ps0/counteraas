@@ -15,7 +15,7 @@
 
 ## Basic premise
 
-It's a fucking counter.
+It's a ... counter.
 
 `POST` increments the counter (starting at 1 after the first request), `GET` retrieves it. `POST` probably also returns the new value. If the record isn't found, it's either an error (404?) or `0`.
 
